@@ -1,6 +1,6 @@
 package com.wellsfargo.counselor.entity;
 
-import javax.persistence.*;
+import jakarta.persistence.*;
 
 @Entity
 public class Client {

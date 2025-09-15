@@ -1,10 +1,6 @@
 package com.wellsfargo.counselor.entity;
 
-
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.Id;
+import jakarta.persistence.*;
 
 @Entity
 public class Advisor {
@@ -29,7 +25,6 @@ public class Advisor {
     private String email;
 
     protected Advisor() {
-
     }
 
     public Advisor(String firstName, String lastName, String address, String phone, String email) {
